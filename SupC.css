@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+         }
+
+    
+header{
+     background-color: aliceblue;
+     padding: 10px;
+     border-radius: 5px 5px 5px ;
+     border-bottom: 2px solid rgb(167, 162, 162);
+     box-shadow: 2px 5px 2px 5px;
+      border-bottom-left-radius: 12px 12px;
+          }
+header h3{
+        color: blue;
+        font-weight: bold;
+        text-shadow: 1px 0.5px 1px;
+        padding: 2px;
+         }
+header a {
+        text-decoration: none;
+         }
+header p{
+        color: blue;
+        font-weight: bolder;
+        list-style: none;
+        text-decoration: none;
+
+         }
+  
+article{
+    
+     display: grid;
+     grid-column: auto;
+
+    }
+
+article #Time{
+       font-family: 'Syne Mono', monospace;
+
+         }
+
+    .profileshow{
+        margin-top: 2%;
+        display: block;
+        float:left;
+        width: 20%;
+        border: 2px solid rgb(247, 243, 243);
+        height: auto;
+        padding: 0;
+        
+    
+         }
+    .profileshow h5{
+       text-shadow: 1px 1px 1px   rgb(247, 243, 243);
+       font-family: 'Syne Mono', monospace;
+       font-weight: bolder;
+          }
+
+    .tabshow{
+        
+       float: right;
+       width: 70%;
+       margin-top: -10%;
+       margin-left: 21%;
+       height: auto;
+      
+    }
+    .tabshow #co {
+        background-color: aliceblue;
+        margin-right: 10px;
+        border: 1px solid rgb(19, 18, 18);
+        border-radius: 10px 10px 10px;
+        margin-top: 10px;
+        padding: 2px;
+       
+    }
+    .tabshow a{
+        text-decoration: none;
+    }
+ 
+    .tabshow #co h4{
+        color: rgb(14, 14, 17);
+        
+        font-weight: bolder;
+    }
+    .tabshow #co h4:hover{
+        font-size: 1.8em;
+        transition:  1s ;
+        transform-style: flat;
+  
+    }
+   .Ghraf{
+       border: 2px solid rgb(14, 14, 17);
+      float: right;
+       padding: none;
+       width: 20px;
+       background-color: rgb(240, 231, 234);
+       margin-left: 80%;
+       margin-top: -12%;
+      
+   
+   }
+   .Numberrr{
+    background-color: black;
+   }
+
+  
+  
+aside{
+        
+        border-radius: 12px 12px 12px;
+        padding-left: 2%;
+        padding-top: 1.5%;
+        width: auto;
+        background-color: rgb(247, 243, 243);
+        box-shadow:2px 2px 2px 2px ;
+             }
+aside h4{
+        color: rgb(0, 0, 255);
+        text-shadow: 1px 1px 1px rgb(19, 18, 18);
+        width: min-content;
+        padding:2px ;
+        margin-left: 1px;
+        }
+aside a :hover{
+            border: 2px solid;
+            box-shadow: 2px 3px 2px;
+        }
+aside button{
+    transition: 1s;
+  
+       }
+aside button :hover {
+        font-size: 1.1em;
+        -webkit-transform:translate(10px,10px)
+       }
+footer {
+    margin-top: 5%;
+    background-color: aliceblue;
+    border: 2px solid rgb(0, 0, 255);
+    position:relative;
+    float: left;
+    clear: right;
+    width: 100%;
+    padding: 10px;
+}
+
+/*PHP Mysql */
+.formCreate h5{
+    text-shadow: 1px 1px 1px;
+    font-family: 'Syne Mono', monospace;
+  
+
+}
+ @media screen and (max-width: 800px) {
+
+    .profileshow{
+             width: 100%;
+             float: center;
+               }
+    .tabshow{
+           
+            float: right;
+            width: 70%;
+           margin-top: 2%;
+           margin-left: 1px;
+           height: auto;
+              }
+        .Ghraf{
+                border: 2px solid rgb(14, 14, 17);
+               float: right;
+                padding: none;
+                background-color: rgb(255, 251, 253);
+                margin-left: 3%;
+                margin-top: 5%;
+                
+               
+            
+            }
+        
+
+          }
+          @media screen and (max-width: 700px ) {
+
+          }
+        
